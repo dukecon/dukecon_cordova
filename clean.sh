@@ -2,4 +2,4 @@
 
 set -e
 
-/bin/rm -rf platforms
+/bin/rm -rf platforms plugins
