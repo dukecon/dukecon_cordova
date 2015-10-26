@@ -1,11 +1,7 @@
 #!/bin/bash
 
-drun () {
-    docker run -it --rm "$@"
-}
-
 cordova () {
-    drun --privileged -v /dev/bus/usb:/dev/bus/usb -v $PWD:/src cordova cordova "$@"
+    docker run -u `id -u` -it --rm -v $PWD:/src -e 'HOME=/tmp' cordova cordova "$@"
 }
 
 test -d platforms/android || cordova platform add android
