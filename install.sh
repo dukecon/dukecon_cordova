@@ -14,6 +14,8 @@ cordova () {
 
 test -d platforms || mkdir platforms
 test -d platforms/android || cordova platform add android
+test -d plugins/cordova-plugin-inappbrowser || cordova plugin add cordova-plugin-inappbrowser
+
 perl -p -i.bak -e 's,mavenCentral\(\),maven {
             url "http://dev.dukecon.org/nexus/content/groups/public"
         },go' platforms/android/build.gradle

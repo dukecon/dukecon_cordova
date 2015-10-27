@@ -9,7 +9,8 @@
     </author>
     <content src="http://dev.dukecon.org/latest/index.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
-    <access origin="*" />
+    <plugin name="cordova-plugin-inappbrowser" version="1" />
+    <access origin="http://*.dukecon.org/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="mailto:*" />
