@@ -7,7 +7,10 @@ Docker-Cordova](https://github.com/dukecon/docker-cordova) project.
 
 Some useful links:
 http://blog.arungupta.me/cordova-ios-android-tech-tip/
+
 http://stackoverflow.com/questions/34893505/cordova-external-browser-opened-for-content-src/34949358#34949358
+
+https://blog.udemy.com/xcode-on-windows/
 
 ## Build
 ### Android
