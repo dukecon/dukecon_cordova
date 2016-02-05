@@ -14,20 +14,26 @@
     <access origin="http://*.dukecon.org/*" />
     <allow-navigation href="http://*.dukecon.org/*" />
     <allow-navigation href="https://*.dukecon.org/*" />
+    <allow-navigation href="https://*.dukecon.org/*" />
+    <allow-navigation href="https://*.github.com/*" />
+    <allow-navigation href="https://accounts.google.com/*" />
+    <allow-navigation href="https://api.twitter.com/*" />
+    <allow-navigation href="https://www.linkedin.com/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="SplashScreen" value="logo_javaland"/>
     <platform name="android">
-        <splash src="res/logo_javaland.png" density="land-hdpi"/>
-        <splash src="res/logo_javaland.png" density="land-ldpi"/>
-        <splash src="res/logo_javaland.png" density="land-mdpi"/>
-        <splash src="res/logo_javaland.png" density="land-xhdpi"/>
+        <splash src="res/logo_javaland" density="land-hdpi"/>
+        <splash src="res/logo_javaland" density="land-ldpi"/>
+        <splash src="res/logo_javaland" density="land-mdpi"/>
+        <splash src="res/logo_javaland" density="land-xhdpi"/>
 
-        <splash src="res/logo_javaland.png" density="port-hdpi"/>
-        <splash src="res/logo_javaland.png" density="port-ldpi"/>
-        <splash src="res/logo_javaland.png" density="port-mdpi"/>
-        <splash src="res/logo_javaland.png" density="port-xhdpi"/>
+        <splash src="res/logo_javaland" density="port-hdpi"/>
+        <splash src="res/logo_javaland" density="port-ldpi"/>
+        <splash src="res/logo_javaland" density="port-mdpi"/>
+        <splash src="res/logo_javaland" density="port-xhdpi"/>
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
