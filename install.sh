@@ -9,7 +9,7 @@ interactive="-it"
 tty -s || interactive=""
 
 cordova () {
-    docker run -u ${uid} ${interactive} --rm -v $PWD:/src -e 'HOME=/tmp' cordova cordova "$@"
+    docker run -u ${uid} ${interactive} --rm -v $PWD:/src -e 'HOME=/tmp' android/cordova cordova "$@"
 }
 
 test -d platforms || mkdir platforms
