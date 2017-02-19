@@ -3,11 +3,11 @@
 set -e
 
 name=`uname`
-if [[ "$name" != 'Darwin' ]]; then
-   uid="-u `id -u`"
-else
-   uid=""
-fi
+# if [[ "$name" != 'Darwin' ]]; then
+#    uid="-u `id -u`"
+# else
+#    uid=""
+# fi
 
 
 # The following docker flags must only be set for interactive sessions with terminal
