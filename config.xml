@@ -8,7 +8,7 @@
         DukeCon Team
     </author>
     <icon src="res/favicon.png"/>
-    <content src="http://dev.dukecon.org/testing/index.html" />
+    <content src="https://programm.javaland.eu/2017/" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <plugin name="cordova-plugin-inappbrowser" version="1" />
     <access origin="http://*.dukecon.org/*" />
