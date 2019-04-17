@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-status-bar-hidden"
+    version="0.1.1">
+
+    <name>Status Bar Hidden</name>
+    <description>Hide the status bar</description>
+    <author>Adriano Di Giovanni</author>
+    <keywords>UIStatusBarHidden,UIViewControllerBasedStatusBarAppearance,status,bar</keywords>
+    <license>MIT</license>
+
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIStatusBarHidden">
+          <true/>
+        </config-file>
+
+        <config-file target="*-Info.plist"
+            parent="UIViewControllerBasedStatusBarAppearance">
+          <false/>
+        </config-file>
+    </platform>
+</plugin>
