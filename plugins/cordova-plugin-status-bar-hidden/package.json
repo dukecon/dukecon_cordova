@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-status-bar-hidden",
+  "_id": "cordova-plugin-status-bar-hidden@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-GqRrAP3/VP+bk/sz94ccX5a/LEc=",
+  "_location": "/cordova-plugin-status-bar-hidden",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-status-bar-hidden",
+    "name": "cordova-plugin-status-bar-hidden",
+    "escapedName": "cordova-plugin-status-bar-hidden",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-status-bar-hidden/-/cordova-plugin-status-bar-hidden-0.1.1.tgz",
+  "_shasum": "1aa46b00fdff54ff9b93fb33f7871c5f96bf2c47",
+  "_spec": "cordova-plugin-status-bar-hidden",
+  "_where": "/Users/mharakal/projects/extern/doag/dukecon-io-cordova/dukecon-ios/dukecon-ios",
+  "author": {
+    "name": "Adriano Di Giovanni",
+    "email": "me@adrianodigiovanni.com",
+    "url": "http://adrianodigiovanni.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/cordova-plugin-status-bar-hidden/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Hide the status bar on iOS",
+  "homepage": "https://github.com/adriano-di-giovanni/cordova-plugin-status-bar-hidden#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "UIStatusBarHidden",
+    "UIViewControllerBasedStatusBarAppearance",
+    "status",
+    "bar"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "cordova-plugin-status-bar-hidden",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/cordova-plugin-status-bar-hidden.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.1"
+}
